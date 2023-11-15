@@ -4,7 +4,8 @@
 #include <array>
 #include <conio.h>
 #include <io.h>
-#include <stdio.h>
+#include <cstdio>
+#include <cstdint>
 #include <windows.h>
 
 bool impl::is_interactive() {
