@@ -3,6 +3,7 @@
 #if defined(PLATFORM_WINDOWS) && PLATFORM_WINDOWS
 #include <array>
 #include <conio.h>
+#include <cstdint>
 #include <windows.h>
 
 bool impl::is_interactive() {
