@@ -7,6 +7,10 @@ A cross-platfrom C++11 commandline for use in servers and terminal chat software
 
 Callback-based i/o supported, as well as history, autocomplete, custom prompts, and more (see [features](#features))
 
+### Why this, and not GNU readline?
+
+With this library, you can **write to stdout**, while at the same time, **reading from stdin**, without any TUI. That's it, that's why you need this.
+
 ## Example
 
 ```cpp
